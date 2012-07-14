@@ -1,6 +1,6 @@
 <?php
 
-final class Bcrypt
+final class Bcrypt implements Crypt
 {
 
     private $rounds;
